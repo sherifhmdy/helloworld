@@ -8,6 +8,9 @@ public class MainController {
   
   @GetMapping("/hi")
   public String sayHello(){
-    return "Hello World!";
+    // trying to raise an issue in sonarQube
+    String username = "sherif";
+    String password = "pass";
+    return username + " " + password;
   }
 }
